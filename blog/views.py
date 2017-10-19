@@ -1,6 +1,5 @@
-#from django.shortcuts import render
-from django.http import HttpResponse
+from django.shortcuts import render
+#from django.http import HttpResponse
 
-
-def index(request):
-    return HttpResponse("Good")
+def post_list(request):
+    return render(request, 'blog/post_list.html', {})
