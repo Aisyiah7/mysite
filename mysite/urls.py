@@ -21,5 +21,5 @@ urlpatterns = [
     #url(r'^login/$', 'django.contrib.auth.views.login', {'template_name': 'login.html'}),
     #url(r'^logout/$', auth_views.logout, {'next_page': '/login/'}),
     url(r'^admin/', admin.site.urls),
-    url(r'^blog/', include('blog.urls')),
+    url(r'', include('blog.urls')),
 ]
